@@ -16,15 +16,15 @@ Keeps only audio and subtitle streams matching specified languages, with support
 
 **Type:** Library Management File Test, Worker Process, Post-processor Task Result
 
-### notify_plex_targeted
-
-Notifies Plex to scan only the specific folder that changed after a task completes, instead of triggering a full library scan. Supports path mapping between Unmanic and Plex container mount points.
-
-**Type:** Post-processor Task Result
-
 ## Installation
 
-Copy the desired plugin folder into your Unmanic plugins directory (`/config/.unmanic/plugins/` inside the container), then enable and configure it via the Unmanic UI.
+Add this plugin repository URL in the Unmanic UI under **Settings > Plugins > Plugin Repositories**:
+
+```
+https://raw.githubusercontent.com/rgregg/unmanic-plugins/repo/repo.json
+```
+
+Plugins will then appear in the plugin browser for installation.
 
 ## Configuration
 
