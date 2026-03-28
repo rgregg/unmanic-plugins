@@ -1,0 +1,18 @@
+{
+    "author": "rgregg (based on Josh.5's limit_library_search_by_ffprobe_data)",
+    "compatibility": [
+        2
+    ],
+    "description": "Skip files that already match all specified FFprobe criteria. Files not matching are queued for processing.",
+    "icon": "https://raw.githubusercontent.com/Unmanic/plugin.limit_library_search_by_ffprobe_data/master/icon.png",
+    "id": "skip_files_matching_ffprobe_data",
+    "name": "Skip files already matching FFprobe criteria",
+    "platform": [
+        "all"
+    ],
+    "priorities": {
+        "on_library_management_file_test": 0
+    },
+    "tags": "library file test,ffmpeg",
+    "version": "0.1.0"
+}
