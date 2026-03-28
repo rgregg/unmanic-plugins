@@ -1,0 +1,18 @@
+{
+    "author": "rgregg (based on Josh.5's notify_plex)",
+    "compatibility": [
+        2
+    ],
+    "description": "Notify Plex to scan only the specific folder that changed, instead of the entire library.",
+    "icon": "https://raw.githubusercontent.com/Josh5/unmanic.plugin.notify_plex/master/icon.png",
+    "id": "notify_plex_targeted",
+    "name": "Notify Plex (Targeted Scan)",
+    "platform": [
+        "all"
+    ],
+    "priorities": {
+        "on_postprocessor_task_results": 0
+    },
+    "tags": "post-processor,plex",
+    "version": "0.1.0"
+}
