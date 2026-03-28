@@ -1,0 +1,51 @@
+{
+    "repo": {
+        "id": "repository.rgregg",
+        "name": "rgregg Unmanic Plugins",
+        "icon": "",
+        "repo_data_directory": "https://raw.githubusercontent.com/rgregg/unmanic-plugins/repo/",
+        "repo_data_url": "https://raw.githubusercontent.com/rgregg/unmanic-plugins/repo/repo.json"
+    },
+    "plugins": [
+        {
+            "author": "Josh.5, SenorSmartyPants, yajrendrag, rgregg",
+            "compatibility": [
+                1,
+                2
+            ],
+            "description": "Specify lists of audio and subtitle languages to keep, with option to always keep the default/original audio stream",
+            "icon": "https://raw.githubusercontent.com/Unmanic/plugin.remove_stream_by_language/master/icon.png",
+            "id": "keep_stream_by_language_custom",
+            "name": "Keep stream by language (with default stream support)",
+            "platform": [
+                "all"
+            ],
+            "priorities": {
+                "on_library_management_file_test": 99,
+                "on_worker_process": 1
+            },
+            "tags": "audio,subtitle, ffmpeg,library file test",
+            "version": "0.2.0",
+            "package_url": "https://raw.githubusercontent.com/rgregg/unmanic-plugins/repo/keep_stream_by_language_custom/keep_stream_by_language_custom-0.2.0.zip"
+        },
+        {
+            "author": "rgregg (based on Josh.5's limit_library_search_by_ffprobe_data)",
+            "compatibility": [
+                2
+            ],
+            "description": "Skip files that already match all specified FFprobe criteria. Files not matching are queued for processing.",
+            "icon": "https://raw.githubusercontent.com/Unmanic/plugin.limit_library_search_by_ffprobe_data/master/icon.png",
+            "id": "skip_files_matching_ffprobe_data",
+            "name": "Skip files already matching FFprobe criteria",
+            "platform": [
+                "all"
+            ],
+            "priorities": {
+                "on_library_management_file_test": 0
+            },
+            "tags": "library file test,ffmpeg",
+            "version": "0.1.0",
+            "package_url": "https://raw.githubusercontent.com/rgregg/unmanic-plugins/repo/skip_files_matching_ffprobe_data/skip_files_matching_ffprobe_data-0.1.0.zip"
+        }
+    ]
+}
